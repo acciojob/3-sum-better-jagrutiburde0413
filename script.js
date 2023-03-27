@@ -5,7 +5,7 @@ var ans=0;
 		for( var j=i+1;j<arr.length;j++){
 			for( var k=j+1;k<arr.length;k++){
 				let sum=arr[i]+arr[j]+arr[k];
-				if(Math.abs(sum-targer)<=min){
+				if(Math.abs(sum-target)<=min){
 					min=Math.abs(sum-target);
 					ans=sum;
 				}
